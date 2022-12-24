@@ -59,9 +59,11 @@
 	font-weight: 100;
 	line-height: 25px;
 }
-button{
-	width: 200px;
-	padding: 15px 0;
+
+button {
+	font-size: 18px;
+	width: 300px;
+	padding: 25px 0;
 	text-align: center;
 	margin: 20px 10px;
 	border-radius: 25px;
@@ -72,8 +74,8 @@ button{
 	cursor: pointer;
 	position: relative;
 	overflow: hidden;
-}
-
+  }
+  
 span{
 	background: #009688;
 	height: 100%;
