@@ -5,16 +5,31 @@
     <link rel="stylesheet" href="style.css">
     <title>No Easter Egg.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'all'}, 'google_translate_element');
+        }
+    </script>
+    <style>
+        #google_translate_element {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    </style>
 </head>
 <body>
     <div class="banner">
-            <br>There is nothing here. You went into the wrong page. Click this button to go to the right page.
+        <br>There is nothing here. You went into the wrong page. Click this button to go to the right page.
         <div class="content">
             <div>
                 <a href="https://hackersinhos.github.io/home">
                     <button type="button"><span></span>yes, click here.</button></a>
             </div>
+            <br><br>
+            <div id="google_translate_element"></div>
         </div>
     </div>
 </body>
+</html>
