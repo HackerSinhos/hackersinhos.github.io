@@ -43,3 +43,8 @@ button:hover span{
 button:hover{
 	border: none;
 }
+.ptbutton{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
