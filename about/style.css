@@ -93,3 +93,15 @@ button:hover span{
 button:hover{
 	border: none;
 }
+
+@media (max-width: 640px) {
+	.navbar {
+		justify-content: center;
+	}
+}
+
+@media (max-height: 500px) {
+	.content h1 {
+		font-size: 250%;
+	}
+}
