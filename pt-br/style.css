@@ -3,6 +3,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
+	font-size: 1rem;
 }
 .banner{
 	width: 100%;
@@ -10,6 +11,10 @@
 	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
 	background-size: cover;
 	background-position: center;
+}
+
+.text {
+	padding: 15px 15px;
 }
 
 button{
@@ -42,4 +47,11 @@ button:hover span{
 }
 button:hover{
 	border: none;
+}
+
+@media (max-width: 935px) {
+	.content {
+		display: flex;
+		flex-direction: column;
+	}
 }

@@ -13,6 +13,10 @@
 	background-position: center;
 }
 
+.text {
+	padding: 15px 15px;
+}
+
 button{
 	width: 200px;
 	padding: 15px 0;
@@ -44,8 +48,21 @@ button:hover span{
 button:hover{
 	border: none;
 }
+
 .ptbutton{
 	position: absolute;
 	top: 0;
 	right: 0;
+}
+
+@media (max-width: 935px) {
+	.content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.ptbutton {
+		top: auto;
+		right: auto;
+	}
 }
