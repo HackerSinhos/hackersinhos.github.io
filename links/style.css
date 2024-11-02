@@ -95,3 +95,36 @@ button:hover span{
 button:hover{
 	border: none;
 }
+
+@media (max-width: 640px) {
+	.navbar {
+		justify-content: center;
+	}
+}
+
+@media (max-width: 600px) and (max-height: 834px) {
+    .button_1 {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) and (max-height: 740px) {
+    .button_1 {
+        display: none;
+    }
+    .button_2 {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) and (max-height: 630px) {
+    .button_1 {
+        display: none;
+    }
+    .button_2 {
+        display: none;
+    }
+    .button_3 {
+        display: none;
+    }
+}
