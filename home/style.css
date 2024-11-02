@@ -52,7 +52,7 @@
 	color: #fff;
 }
 .content h1{
-	font-size: 70px;
+	font-size: 4.4rem;
 	margin-top: 80px;
 }
 .content p{
@@ -62,7 +62,7 @@
 }
 
 button {
-	font-size: 18px;
+	font-size: 1.1rem;
 	width: 300px;
 	padding: 25px 0;
 	text-align: center;
