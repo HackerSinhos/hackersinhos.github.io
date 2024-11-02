@@ -98,7 +98,7 @@ button:hover{
 }
 
 .ptbutton {
-	@extend .button;
+	text-decoration: none;
 	margin-top: 5px;
 }
 
