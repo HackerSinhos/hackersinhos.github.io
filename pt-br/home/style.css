@@ -96,3 +96,10 @@ button:hover span{
 button:hover{
 	border: none;
 }
+
+@media (max-width: 700px) {
+	.navbar {
+		display: flex;
+		justify-content: center;
+	}
+}

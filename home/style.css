@@ -96,3 +96,20 @@ button:hover span{
 button:hover{
 	border: none;
 }
+
+.ptbutton {
+	margin-top: 5px;
+}
+
+@media (max-width: 700px) {
+	.navbar {
+		display: flex;
+		justify-content: center;
+	}
+
+	.ptbutton {
+		display: flex;
+		justify-content: center;
+		margin: 3% auto auto auto;
+	}
+}
